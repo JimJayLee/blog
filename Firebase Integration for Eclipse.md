@@ -177,12 +177,12 @@ Note that the value of _com.google.android.gms.version_ is hardcoded, which is f
 
 
 ### PARSING THE CONFIG FILE MANUALLY
-You can convert the file manually according to ![doc](https://firebase.google.com/docs/reference/gradle/#processing_the_json_file) or use !(online converter)[https://dandar3.github.io/android/google-services-json-to-xml.html] which thanks to _dandar3_ on Github. Eventually, append the values in the end of string.xml.
+You can convert the file manually according to [Doc](https://firebase.google.com/docs/reference/gradle/#processing_the_json_file) or use [online converter](https://dandar3.github.io/android/google-services-json-to-xml.html) which thanks to _dandar3_ on Github. Eventually, append the values in the end of string.xml.
 
 ### CHECK IF IT WORKS
 I belives you have imported the Jars as libraries in Eclipse. Now, it's all done. Final step, You can run the app and look up the logcat to find if there's a message saying "FirebaseApp initialized successfully". If so, you may see some messages saying events uploaded as well.
 
 
 ### REFERENCES
-![Thanks to dandar3's insightful project](https://github.com/dandar3/android-google-firebase-README)
-![The Google Services Gradle Plugin-Official Firebase Doc](https://developers.google.com/android/guides/google-services-plugin)
+[Thanks to dandar3's insightful project](https://github.com/dandar3/android-google-firebase-README)
+[The Google Services Gradle Plugin-Official Firebase Doc](https://developers.google.com/android/guides/google-services-plugin)
