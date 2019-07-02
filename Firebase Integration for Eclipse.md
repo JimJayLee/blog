@@ -184,5 +184,5 @@ I belives you have imported the Jars as libraries in Eclipse. Now, it's all done
 
 
 ### REFERENCES
-[Thanks to dandar3's insightful project](https://github.com/dandar3/android-google-firebase-README)
+[Thanks to dandar3's insightful project](https://github.com/dandar3/android-google-firebase-README)  
 [The Google Services Gradle Plugin-Official Firebase Doc](https://developers.google.com/android/guides/google-services-plugin)
