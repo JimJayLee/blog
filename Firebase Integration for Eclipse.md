@@ -139,7 +139,7 @@ The SDK handles the initialization by itself automatically. Because Jar doesn't 
 
   <provider
     android:name="com.google.firebase.provider.FirebaseInitProvider"
-    android:authorities="com.jimjay.demo.firebaseinitprovider"
+    android:authorities="${applicationId here}.firebaseinitprovider"
     android:exported="false"
     android:initOrder="100" />
   
@@ -153,7 +153,7 @@ The SDK handles the initialization by itself automatically. Because Jar doesn't 
       <action android:name="com.google.android.c2dm.intent.RECEIVE" />
       <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-      <category android:name="com.jimjay.demo" />
+      <category android:name="${applicationId here}" />
   </intent-filter>
 </receiver>
 <receiver
