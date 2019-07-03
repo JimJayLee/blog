@@ -1,4 +1,4 @@
-# Firebase Analytics SDK integration For Eclipse
+# Firebase Analytics SDK Integration For Eclipse
 
 It is easy to add Firebase SDK in Android Studio, since official doc suggests. However, there would be a chance that you have to deal with Eclipse. Hope you never have to.
 
