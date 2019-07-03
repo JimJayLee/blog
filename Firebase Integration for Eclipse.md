@@ -66,7 +66,7 @@ For example the generated value.xml(Referenced from official doc):
 ```
 
 ### GET JARS FROM THE DEPENDENCIES
-Grasp all needed dependencies from the gradle cache. The dependencies are listed below as follow:
+Grasp all needed dependencies from the gradle cache. The [dependencies](https://github.com/JimJayLee/blog/tree/master/assets/firebase_jars) are listed below as follow:
 ```
 com.android.support-v4:support-compat
 com.android.support-v4:support-core-utils
