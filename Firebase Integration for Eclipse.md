@@ -1,6 +1,6 @@
 # Firebase Analytics SDK integration For Eclipse
 
-It is easy to add Firebase SDK in Android Studio, since official doc sugguests. However, there would be a chance that you have to deal with Eclipse. Hope you never have to.
+It is easy to add Firebase SDK in Android Studio, since official doc suggests. However, there would be a chance that you have to deal with Eclipse. Hope you never have to.
 
 Let go of nonsense words. Let's dive into it.
 
@@ -87,11 +87,11 @@ com.google.firebase:firebase-measurement-connector-impl
 All of the dependency files are in AAR format. Uncompress these files respectively and get out of the class.jar file which need imported in Eclipse.
 
 ### COPY NECESSARY DATA INTO ANDROIDMAINFEST.XML
-The SDK handles the initialization by itself automatically. Because Jar doesn't come with resouce files and AndroidMainfest, we have to copy the necessary data from every AAR file. They are significant to get the Firebase SDK work. 
+The SDK handles the initialization by itself automatically. Because Jar doesn't come with resource files and AndroidMainfest, we have to copy the necessary data from every AAR file. They are significant to get the Firebase SDK work. 
 
 ``` xml
 
-<!-- Neccessary permissions-->
+<!-- Necessary permissions-->
 <permission android:name="${applicationId here}.permission.C2D_MESSAGE"
     android:protectionLevel="signature"/>
 
@@ -101,7 +101,7 @@ The SDK handles the initialization by itself automatically. Because Jar doesn't 
 <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
 <uses-permission android:name="${applicationId here}.permission.C2D_MESSAGE"/>
 
-<!-- Paste the next section between Applcation label -->
+<!-- Paste the next section between Application label -->
 
 <!-- play service basement AndroidManifest.xml -->
 <meta-data android:name="com.google.android.gms.version" 
@@ -180,7 +180,7 @@ Note that the value of _com.google.android.gms.version_ is hardcoded, which is f
 You can convert the file manually according to [Doc](https://firebase.google.com/docs/reference/gradle/#processing_the_json_file) or use [online converter](https://dandar3.github.io/android/google-services-json-to-xml.html) which thanks to _dandar3_ on Github. Eventually, append the values in the end of string.xml.
 
 ### CHECK IF IT WORKS
-I belives you have imported the Jars as libraries in Eclipse. Now, it's all done. Final step, You can run the app and look up the logcat to find if there's a message saying "FirebaseApp initialized successfully". If so, you may see some messages saying events uploaded as well.
+I believes you have imported the Jars as libraries in Eclipse. Now, it's all done. Final step, You can run the app and look up the logcat to find if there's a message saying "FirebaseApp initialized successfully". If so, you may see some messages saying events uploaded as well.
 
 
 ### REFERENCES
