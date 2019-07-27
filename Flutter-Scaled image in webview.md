@@ -24,3 +24,6 @@ Widget _buildWebContent(ParsedNewObject pno){
 ```
 
 It works like charming.
+
+### REFERENCE
+[StackOverflow-Android WebView, Scaling Image to fit the screen](https://stackoverflow.com/a/23656581)
