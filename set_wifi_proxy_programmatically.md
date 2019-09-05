@@ -2,7 +2,7 @@
 
 For some kind of jobs, we may deal with switching proxy. Usually, proxy configuration is done manually in WIFI settings.  
 
-![](image_url)
+![](assets/proxy_setting.png)
 
 ### Problem with Automation
 
