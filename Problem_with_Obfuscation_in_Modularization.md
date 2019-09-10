@@ -72,4 +72,5 @@ When compiling the SDK, the _facebook-common_ dependency is not implemented. Tha
 
 Let SDK project have reference to _facebook-common_ dependency. Compile and everything works fine. No error!
 
-
+#### UPDATE:
+	When compiling into obfuscated SDK, if it need other AARs to run, the AARs should be _compileOnly_ with the SDK. 
